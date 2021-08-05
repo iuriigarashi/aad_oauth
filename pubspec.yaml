@@ -1,0 +1,21 @@
+name: aad_oauth
+description: A Flutter OAuth package for performing user authentication against Azure Active Directory OAuth2 v2.0 endpoint.
+version: 0.1.8
+homepage: https://github.com/Earlybyte/aad_oauth
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter_webview_plugin: ^0.4.0
+  flutter_secure_storage: ^4.2.1
+  webview_flutter: ^2.0.10
+  http: ^0.13.3
+  shared_preferences: ^2.0.6
+  flutter:
+    sdk: flutter
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
